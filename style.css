@@ -11,6 +11,9 @@ main{
     padding: 25px;
     max-width: 375px;
 }
+header{
+    text-align:center
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -20,16 +23,16 @@ nav{
     max-width: 120px;
 }
 h1{
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
 }
 h2{
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     font-weight: 400;
     font-size: 1em;
 }
 #screen-mockups{
     max-width: 325px;
+}
+.btn-get-started{
 }
