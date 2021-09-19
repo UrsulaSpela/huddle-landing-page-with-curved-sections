@@ -63,4 +63,35 @@ h2{
 .stats-div{
     margin: 0 auto;
     max-width: 50%;
+    margin-bottom: 6vh;
+}
+.stats-div h3{
+    font-size: 3.7rem;
+    text-align: center;
+}
+.stats-div p{
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+}
+#grow-together, #flowing-conversations, #your-users{
+    text-align: center;
+    margin: 5vh 0;
+}
+.section-img{
+    max-width: 325px;
+}
+#community{
+    text-align: center;
+}
+#grow-together{
+    background: url(images/bg-section-top-mobile-1.svg) no-repeat, url(images/bg-section-bottom-mobile-1.svg) no-repeat;
+    background-position: 0 0, 100% 100%;
+}
+#your-users{
+    background: url(images/bg-section-top-mobile-2.svg) no-repeat, url(images/bg-section-bottom-mobile-2.svg) no-repeat;
+    background-position: 0 0, 100% 100%;
+    background-size: 100vw;
+}
+footer{
+    background: url(images/bg-footer-top-mobile.svg) no-repeat;
 }
