@@ -8,11 +8,11 @@
 }
 main{
     margin: 0 auto;
-    padding: 25px;
     max-width: 375px;
 }
 header{
-    text-align:center
+    text-align:center;
+    padding: 25px;
 }
 nav{
     display: flex;
@@ -76,6 +76,7 @@ h2{
 #grow-together, #flowing-conversations, #your-users{
     text-align: center;
     margin: 5vh 0;
+    padding: 7vh 25px;
 }
 .section-img{
     max-width: 325px;
@@ -94,4 +95,9 @@ h2{
 }
 footer{
     background: url(images/bg-footer-top-mobile.svg) no-repeat;
+    padding: 10vh 25px;
+    color: white;
+}
+footer div{
+    background:hsl(192, 100%, 9%);
 }
