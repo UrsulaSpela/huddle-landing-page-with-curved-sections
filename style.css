@@ -6,6 +6,9 @@
     padding:0;
     box-sizing: border-box;
 }
+.desktop{
+    display: none;
+}
 main{
     margin: 0 auto;
     max-width: 375px;
@@ -84,20 +87,28 @@ h2{
 #community{
     text-align: center;
 }
-#grow-together{
-    background: url(images/bg-section-top-mobile-1.svg) no-repeat, url(images/bg-section-bottom-mobile-1.svg) no-repeat;
-    background-position: 0 0, 100% 100%;
-}
-#your-users{
-    background: url(images/bg-section-top-mobile-2.svg) no-repeat, url(images/bg-section-bottom-mobile-2.svg) no-repeat;
-    background-position: 0 0, 100% 100%;
-    background-size: 100vw;
-}
 footer{
-    background: url(images/bg-footer-top-mobile.svg) no-repeat;
-    padding: 10vh 25px;
     color: white;
 }
 footer div{
     background:hsl(192, 100%, 9%);
+    padding: 25px;
+}
+
+@media only screen and (min-width: 1440px){
+    main{
+        max-width: 1440px;
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    #statistics{
+        display: flex;
+    }
+    #grow-together-content{
+        display: flex;
+    }
 }
