@@ -72,6 +72,9 @@ p{
 }
 .btn-get-started{
 }
+section p{
+    padding: 25px;
+}
 .stats-div{
     margin: 0 auto;
     max-width: 50%;
@@ -126,8 +129,22 @@ footer div{
     h2{
         font-size: 1.25em;
     }
-    h3{
+    h4{
+        font-size: 2.5em;
+        text-align: left;
+        padding-top: 100px;
+    }
+    section p{
+        text-align: left;
+        padding:25px 0;
+    }
+    #community h4{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .stats-div h3{
         font-size: 5em;
+        line-height: 1em;
     }
     .btn-get-started{
         width: 400px;
@@ -138,6 +155,9 @@ footer div{
     }
     #screen-mockups{
         max-width: 1020px;
+    }
+    .section-img{
+        max-width: 530px;
     }
     #statistics{
         display: flex;
