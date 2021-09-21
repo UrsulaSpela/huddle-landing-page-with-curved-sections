@@ -47,6 +47,15 @@ h2{
     font-size: 1em;
     margin-bottom: 4vh;
 }
+h4{
+    font-family: 'Poppins', sans-serif; 
+}
+h3{
+    font-family: 'Poppins', sans-serif; 
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
 .btn-get-started{
     padding: 10px 20px;
     background: hsl(322, 100%, 66%);
@@ -79,7 +88,6 @@ h2{
 #grow-together, #flowing-conversations, #your-users{
     text-align: center;
     margin: 5vh 0;
-    padding: 7vh 25px;
 }
 #grow-together-content, #your-users-content{
     background: hsl(207, 100%, 98%);
@@ -118,6 +126,9 @@ footer div{
     h2{
         font-size: 1.25em;
     }
+    h3{
+        font-size: 5em;
+    }
     .btn-get-started{
         width: 400px;
         height: 80px;
@@ -134,11 +145,13 @@ footer div{
     #grow-together-content, #your-users-content{
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-evenly;
         padding: 60px;
         max-width: 1440px;
     }
     #flowing-conversations{
         display: flex;
+        justify-content: space-evenly;
         padding: 60px;
     }
     #footer-content{
